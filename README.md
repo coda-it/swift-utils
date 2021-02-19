@@ -1,3 +1,3 @@
 # swift-utils
 
-A description of this package.
+A sharable utils library for Swift projects.
