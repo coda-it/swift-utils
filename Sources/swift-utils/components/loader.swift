@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoadingView<Content>: View where Content: View {
+public struct LoadingView<Content>: View where Content: View {
     @Binding var isShowing: Bool
     var content: () -> Content
     
