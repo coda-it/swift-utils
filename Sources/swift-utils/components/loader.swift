@@ -11,7 +11,7 @@ public struct LoadingView<Content>: View where Content: View {
     @Binding var isShowing: Bool
     var content: () -> Content
     
-    var body: some View {
+    public var body: some View {
         GeometryReader { geometry in
             ZStack(alignment: .center) {
                 content()
